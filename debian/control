@@ -1,0 +1,51 @@
+Source: libmm-qt
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               libnetworkmanagerqt-dev,
+               modemmanager-dev,
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: https://projects.kde.org/projects/kde/workspace/libmm-qt
+Vcs-Browser: https://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libmm-qt
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/libmm-qt
+
+Package: libmodemmanagerqt5-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5modemmanagerqt5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: qt wrapper for modemmanager devel files.
+ Qt wrapper for ModemManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the development files
+
+Package: libkf5modemmanagerqt5
+Section: utils
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: qt wrapper for networkmanager library.
+ Qt wrapper for ModemManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+
+Package: libkf5modemmanagerqt5-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: libkf5modemmanagerqt5 (= ${binary:Version}), ${misc:Depends}
+Description: qt wrapper for networkmanager debug files.
+ Qt wrapper for ModemManager DBus API.
+ .
+ This package is part of the KDE Plasma.
+ .
+ This package contains the debugging symbols.

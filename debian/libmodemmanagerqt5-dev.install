@@ -1,0 +1,4 @@
+usr/include/*
+usr/lib/*/cmake/*
+usr/lib/*/libKF5ModemManagerQt.so
+usr/lib/*/qt5/mkspecs/*
