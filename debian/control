@@ -5,7 +5,7 @@ XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 0.0.14),
-               libnetworkmanagerqt-dev,
+               libkf5networkmanagerqt-dev,
                modemmanager-dev,
                pkg-config,
                pkg-kde-tools,
