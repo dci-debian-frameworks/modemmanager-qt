@@ -1,8 +1,8 @@
-libmm-qt (5.0.91-0ubuntu1) UNRELEASED; urgency=medium
+libmm-qt (5.0.91-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Initial release.
-  * Update watch to http://download.kde.org 
-  * Update extra-cmake-modules depends version 
+  * Update watch to http://download.kde.org
+  * Update extra-cmake-modules depends version
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 10 Jul 2014 10:24:08 +0100
