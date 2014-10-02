@@ -11,7 +11,7 @@ Copyright: 2013-2014 Lukas Tinkl <ltinkl@redhat.com> <jgrulich@redhat.com>
            2013 Daniel Nicoletti <dantti12@gmail.com>
            2013 Lamarque V. Souza <lamarque@kde.org>
            2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: LGPL-2.1+ or any later version accepted by the membership of KDE e.V.
+License: LGPL-KDEeV
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -33,8 +33,7 @@ License: LGPL-2.1+ or any later version accepted by the membership of KDE e.V.
 
 Files: examples/main.cpp
 Copyright: 2013 Jan Grulich <jgrulich@redhat.com>
-License: GPL-2+ or or any later version
-  accepted by the membership of KDE e.V.
+License: GPL-KDEeV
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 2 of
