@@ -1,6 +1,6 @@
-libmm-qt (5.0.95-0ubuntu1) UNRELEASED; urgency=medium
+libmm-qt (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream beta release
+  * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 01 Oct 2014 16:08:43 +0200
 
