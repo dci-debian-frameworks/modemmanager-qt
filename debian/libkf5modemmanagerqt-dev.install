@@ -2,4 +2,4 @@ usr/include/KF5/ModemManagerQt/
 usr/include/KF5/modemmanagerqt_version.h
 usr/lib/*/cmake/KF5ModemManagerQt/
 usr/lib/*/libKF5ModemManagerQt.so
-usr/lib/*/qt5/mkspecs/qt_ModemManagerQt.pri
+usr/lib/*/qt5/mkspecs/modules/qt_ModemManagerQt.pri
