@@ -1,4 +1,4 @@
-libmm-qt (4:5.2.0-1~) UNRELEASED; urgency=medium
+libmm-qt (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -7,7 +7,7 @@ libmm-qt (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Add basic autopkgtests support.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 19:04:33 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 20:00:50 +0100
 
 libmm-qt (5.2.0-0ubuntu1) vivid; urgency=medium
 
