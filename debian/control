@@ -21,6 +21,8 @@ Package: libkf5modemmanagerqt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5modemmanagerqt5 (= ${binary:Version}),
+         modemmanager-dev (>= 1.0),
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt wrapper for ModemManager - devel files.
