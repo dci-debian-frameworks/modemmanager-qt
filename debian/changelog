@@ -16,6 +16,18 @@ libmm-qt (4:5.2.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 20:00:50 +0100
 
+libmm-qt (5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:35:38 -0700
+
+libmm-qt (5.2.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:44:19 -0800
+
 libmm-qt (5.2.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
