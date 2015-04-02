@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: libmm-qt
-Source: ftp://ftp.kde.org/pub/kde/stable/plasma/libmm-qt
+Upstream-Name: modemmanager-qt
+Source: ftp://ftp.kde.org/pub/kde/stable/frameworks/modemmanager-qt
 
 Files: *
 Copyright: 2013-2014 Lukas Tinkl <ltinkl@redhat.com> <jgrulich@redhat.com>

@@ -1,4 +1,3 @@
 version=3
-http://download.kde.org/unstable/plasma/([\d\.]+)/libmm-qt-(.*)\.tar\.xz
-
-http://download.kde.org/stable/plasma/([\d\.]+)/libmm-qt-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d\.]*)/modemmanager-qt-(.*)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d\.]*)/modemmanager-qt-(.*)\.tar\.xz

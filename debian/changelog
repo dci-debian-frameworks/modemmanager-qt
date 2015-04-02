@@ -1,3 +1,13 @@
+modemmanager-qt (5.8.50-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Library moved to frameworks release scope, renamed source.
+  * So version bump 6, adjust package naming accordingly
+  * Fix install file to not wildcard the entire soversion, so the build breaks
+    when upstream does a bump again
+  * Mark the lib and dbg package multiarch same
+
+ -- Harald Sitter <sitter@kde.org>  Thu, 02 Apr 2015 10:26:25 +0200
+
 libmm-qt (5.2.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
