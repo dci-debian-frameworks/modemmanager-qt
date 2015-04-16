@@ -1,3 +1,2 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/modemmanager-qt-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/modemmanager-qt-(.*)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d.]*)/modemmanager-qt-([\d.]*)\.tar\.xz
