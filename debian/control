@@ -6,11 +6,10 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.9.0),
-               libkf5networkmanagerqt-dev (>= 5.9.0),
-               modemmanager-dev,
+               modemmanager-dev (>= 1.0),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev
+               qtbase5-dev (>= 5.2.0)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/modemmanager-qt
@@ -21,6 +20,8 @@ Package: libkf5modemmanagerqt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5modemmanagerqt6 (= ${binary:Version}),
+         modemmanager-dev (>= 1.0),
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt wrapper for ModemManager - devel files.
