@@ -1,6 +1,7 @@
 modemmanager-qt (5.9.0-1) experimental; urgency=medium
 
   * Prepare Debian release. (5.9.0-1)
+  * New upstream patch: upstream_insert_missing_license_text
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:25:47 +0200
 
