@@ -1,3 +1,10 @@
+modemmanager-qt (5.9.0-0ubuntu1.1) vivid; urgency=medium
+
+  * Add upstream_crash.diff from upstream LP:#1448502
+   - fixes crash on login when set up to use modems
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 25 Apr 2015 19:05:43 +0200
+
 modemmanager-qt (5.9.0-0ubuntu1) vivid; urgency=medium
 
   [ Harald Sitter ]
