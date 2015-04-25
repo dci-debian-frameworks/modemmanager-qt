@@ -1,8 +1,8 @@
-diff --git a/src/modem.cpp b/src/modem.cpp
-index e595d25..5b052ed 100644
---- a/src/modem.cpp
-+++ b/src/modem.cpp
-@@ -172,27 +172,6 @@ ModemManager::ModemPrivate::ModemPrivate(const QString &path, Modem *q)
+Index: modemmanager-qt-5.9.0/src/modem.cpp
+===================================================================
+--- modemmanager-qt-5.9.0.orig/src/modem.cpp
++++ modemmanager-qt-5.9.0/src/modem.cpp
+@@ -172,27 +172,6 @@ ModemManager::ModemPrivate::ModemPrivate
      , q_ptr(q)
  {
      if (modemIface.isValid()) {
@@ -30,7 +30,7 @@ index e595d25..5b052ed 100644
          simPath = modemIface.sim().path();
          Q_FOREACH (uint cap, modemIface.supportedCapabilities()) {
              supportedCapabilities.append((MMModemCapability)cap);
-@@ -227,9 +206,37 @@ ModemManager::ModemPrivate::ModemPrivate(const QString &path, Modem *q)
+@@ -227,9 +206,37 @@ ModemManager::ModemPrivate::ModemPrivate
              currentBands.append((MMModemBand)band);
          }
          supportedIpFamilies = (ModemManager::Modem::IpBearerFamilies)modemIface.supportedIpFamilies();
@@ -68,10 +68,10 @@ index e595d25..5b052ed 100644
  ModemManager::Modem::Modem(const QString &path, QObject *parent)
      : Interface(*new ModemPrivate(path, this), parent)
  {
-diff --git a/src/modem_p.h b/src/modem_p.h
-index 36b786b..2e6b8c1 100644
---- a/src/modem_p.h
-+++ b/src/modem_p.h
+Index: modemmanager-qt-5.9.0/src/modem_p.h
+===================================================================
+--- modemmanager-qt-5.9.0.orig/src/modem_p.h
++++ modemmanager-qt-5.9.0/src/modem_p.h
 @@ -74,6 +74,7 @@ public:
      Q_DECLARE_PUBLIC(Modem)
      Modem *q_ptr;
