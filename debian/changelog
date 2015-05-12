@@ -1,6 +1,7 @@
 modemmanager-qt (5.10.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * Remove upstream applied patch: upstream_insert_missing_license_text
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:21:18 +0200
 
