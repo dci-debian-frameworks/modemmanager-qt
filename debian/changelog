@@ -1,3 +1,17 @@
+modemmanager-qt (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Remove upstream applied patch: upstream_insert_missing_license_text
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:21:18 +0200
+
+modemmanager-qt (5.9.0-1) experimental; urgency=medium
+
+  * Prepare Debian release. (5.9.0-1)
+  * New upstream patch: upstream_insert_missing_license_text
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:25:47 +0200
+
 modemmanager-qt (5.9.0-0ubuntu1.1) vivid; urgency=medium
 
   * Add upstream_crash.diff from upstream LP:#1448502

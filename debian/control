@@ -1,29 +1,32 @@
 Source: modemmanager-qt
-Priority: extra
+Section: libs
+Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.9.0),
-               libkf5networkmanagerqt-dev (>= 5.9.0),
-               modemmanager-dev,
+               extra-cmake-modules (>= 5.10.0~),
+               modemmanager-dev (>= 1.0),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev
+               qtbase5-dev (>= 5.4.0~)
 Standards-Version: 3.9.6
-Section: libs
-Homepage: https://projects.kde.org/projects/frameworks/modemmanager-qt
 XS-Testsuite: autopkgtest
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/modemmanager-qt.git/
+Homepage: https://projects.kde.org/projects/frameworks/modemmanager-qt
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/modemmanager-qt.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/modemmanager-qt.git
 
-Package: libkf5modemmanagerqt-dev
+Package: modemmanager-qt-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5modemmanagerqt6 (= ${binary:Version}),
+         modemmanager-dev (>= 1.0),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt wrapper for ModemManager - devel files.
+Breaks: libkf5modemmanagerqt-dev
+Replaces: libkf5modemmanagerqt-dev
+Description: Qt wrapper for ModemManager - devel files
  Qt wrapper for ModemManager DBus API.
  .
  This package is part of KDE Frameworks.
