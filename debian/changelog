@@ -1,3 +1,9 @@
+modemmanager-qt (5.10.0-0ubuntu2) wily; urgency=medium
+
+  * No change rebuild to retry tests
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 13:47:09 +0200
+
 modemmanager-qt (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]
