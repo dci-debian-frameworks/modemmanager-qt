@@ -1,3 +1,9 @@
+modemmanager-qt (5.10.0-0ubuntu3) wily; urgency=medium
+
+  * Update tests to run in xsesson with dbus
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 23 Jun 2015 14:21:19 +0200
+
 modemmanager-qt (5.10.0-0ubuntu2) wily; urgency=medium
 
   * No change rebuild to retry tests

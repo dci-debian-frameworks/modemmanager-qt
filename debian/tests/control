@@ -1,5 +1,7 @@
 Tests: testsuite
-Depends: @, @builddeps@, build-essential, dbus-x11
+Depends: @, @builddeps@, build-essential,
+         xvfb, xauth, dbus-x11, openbox,
+         libkf5service-bin, kded5, kinit
 Restrictions: build-needed
 
 Tests: acc
