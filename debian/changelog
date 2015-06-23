@@ -1,3 +1,9 @@
+modemmanager-qt (5.10.0-0ubuntu4) wily; urgency=medium
+
+  * chmod 755 debian/tests/testsuite.xsession
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 23 Jun 2015 17:21:17 +0200
+
 modemmanager-qt (5.10.0-0ubuntu3) wily; urgency=medium
 
   * Update tests to run in xsesson with dbus
