@@ -1,3 +1,12 @@
+modemmanager-qt (5.11.0-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.0).
+  * Remove upstream applied patch: upstream_insert_missing_license_text
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 15:41:02 +0200
+
 modemmanager-qt (5.10.0-0ubuntu4) wily; urgency=medium
 
   * chmod 755 debian/tests/testsuite.xsession
@@ -17,10 +26,6 @@ modemmanager-qt (5.10.0-0ubuntu2) wily; urgency=medium
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Jun 2015 13:47:09 +0200
 
 modemmanager-qt (5.10.0-0ubuntu1) wily; urgency=medium
-
-  [ Maximiliano Curia ]
-  * New upstream release (5.10.0).
-  * Remove upstream applied patch: upstream_insert_missing_license_text
 
   [ Jonathan Riddell ]
   * New upstream release
