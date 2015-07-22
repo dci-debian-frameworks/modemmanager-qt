@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.50 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5ModemManagerQt.so.6 libkf5modemmanagerqt6 #MINVER#
  _Z25registerModemManagerTypesv@Base 5.8.50
  _ZN12ModemManager11ModemDevice10findBearerERK7QString@Base 5.8.50
@@ -270,9 +270,9 @@ libKF5ModemManagerQt.so.6 libkf5modemmanagerqt6 #MINVER#
  _ZN12ModemManager8Notifier15serviceAppearedEv@Base 5.8.50
  _ZN12ModemManager8Notifier16staticMetaObjectE@Base 5.8.50
  _ZN12ModemManager8Notifier18serviceDisappearedEv@Base 5.8.50
- _ZN12ModemManager8NotifierD0Ev@Base 5.8.50
- _ZN12ModemManager8NotifierD1Ev@Base 5.8.50
- _ZN12ModemManager8NotifierD2Ev@Base 5.8.50
+ (optional)_ZN12ModemManager8NotifierD0Ev@Base 5.8.50
+ (optional)_ZN12ModemManager8NotifierD1Ev@Base 5.8.50
+ (optional)_ZN12ModemManager8NotifierD2Ev@Base 5.8.50
  _ZN12ModemManager8notifierEv@Base 5.8.50
  _ZN12ModemManager9Interface11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.8.50
  _ZN12ModemManager9Interface11qt_metacastEPKc@Base 5.8.50
