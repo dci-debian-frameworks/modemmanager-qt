@@ -1,6 +1,7 @@
 modemmanager-qt (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:29:41 -0700
 
