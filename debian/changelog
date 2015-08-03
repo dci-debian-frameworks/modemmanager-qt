@@ -1,4 +1,4 @@
-modemmanager-qt (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
+modemmanager-qt (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
@@ -11,7 +11,7 @@ modemmanager-qt (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Manual merge. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:29:41 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:11:42 +0200
 
 modemmanager-qt (5.11.0-1) unstable; urgency=medium
 
