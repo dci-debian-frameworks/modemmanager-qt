@@ -8,6 +8,7 @@ modemmanager-qt (5.12.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * New upstream release
+  * Vivid backport. 
 
   [ José Manuel Santamaría Lema ]
   * Update symbols file: mark as optional the symbols gone after
