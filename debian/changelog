@@ -1,8 +1,9 @@
-modemmanager-qt (5.12.0-2~) UNRELEASED; urgency=medium
+modemmanager-qt (5.13.0-1~) UNRELEASED; urgency=medium
 
   * Drop XS-Testsuite field
+  * New upstream release (5.13.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 07:58:01 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Aug 2015 12:08:56 +0200
 
 modemmanager-qt (5.12.0-1) unstable; urgency=medium
 
