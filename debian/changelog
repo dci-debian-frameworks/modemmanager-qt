@@ -1,4 +1,4 @@
-modemmanager-qt (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+modemmanager-qt (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -6,7 +6,7 @@ modemmanager-qt (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 21:04:14 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:59:11 +0100
 
 modemmanager-qt (5.14.0-0ubuntu1) wily; urgency=medium
 
