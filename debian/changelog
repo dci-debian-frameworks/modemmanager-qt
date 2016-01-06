@@ -1,9 +1,13 @@
-modemmanager-qt (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+modemmanager-qt (4:5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge. No remaining changes. 
   * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:37:23 +0000
+  [ Philip Muškovac ]
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:10:01 +0100
 
 modemmanager-qt (5.16.0-1) unstable; urgency=medium
 
