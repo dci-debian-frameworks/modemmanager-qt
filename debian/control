@@ -40,17 +40,3 @@ Description: Qt wrapper library for ModemManager
  Qt wrapper for ModemManager DBus API.
  .
  This package is part of the KDE Frameworks.
-
-Package: libkf5modemmanagerqt6-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Recommends: qtbase5-dbg
-Depends: libkf5modemmanagerqt6 (= ${binary:Version}), ${misc:Depends}
-Description: Qt wrapper for networkmanager - debug files
- Qt wrapper for ModemManager DBus API.
- .
- This package is part of the KDE Frameworks.
- .
- This package contains the debugging symbols.
