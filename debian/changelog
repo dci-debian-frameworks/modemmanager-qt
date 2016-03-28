@@ -1,13 +1,14 @@
-modemmanager-qt (5.20.0-1~1.gbp70a296) UNRELEASED; urgency=medium
+modemmanager-qt (5.20.0-1~2.gbp717c69) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @70a2965ba376b478941b38bedd61995314f1a9d4 **
+  ** SNAPSHOT build @717c699bc9a3f5e12c8807c80125b30225f7080d **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 23:06:43 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 19:06:31 +0200
 
 modemmanager-qt (5.19.0-1) experimental; urgency=medium
 
