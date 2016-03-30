@@ -1,6 +1,6 @@
-modemmanager-qt (5.20.0-1~5.gbpeae8b4) UNRELEASED; urgency=medium
+modemmanager-qt (5.20.0-1~6.gbp5f7084) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @eae8b4cd029e75b6f4b697fa364d97b7cbab2fff **
+  ** SNAPSHOT build @5f70844375d78f294fb7cbf7af35f41c22623c66 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -10,8 +10,9 @@ modemmanager-qt (5.20.0-1~5.gbpeae8b4) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:30:11 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 10:52:15 +0200
 
 modemmanager-qt (5.19.0-1) experimental; urgency=medium
 
