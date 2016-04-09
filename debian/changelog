@@ -1,5 +1,8 @@
-modemmanager-qt (5.20.0-1~8.gbp6a53e2) UNRELEASED; urgency=medium
+modemmanager-qt (5.21.0-1~1.gbp4a181b) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @4a181ba17f212e23c5da68f46ebdf92ad4e38b89 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @6a53e2d0deda64ca5e54e3a07a190bf14f4ee95b **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,7 +17,10 @@ modemmanager-qt (5.20.0-1~8.gbp6a53e2) UNRELEASED; urgency=medium
   * Update acc test script
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:52:24 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 00:52:08 +0200
 
 modemmanager-qt (5.19.0-1) experimental; urgency=medium
 
