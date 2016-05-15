@@ -1,3 +1,12 @@
+modemmanager-qt (5.22.0-1~1.gbp05ea01) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @05ea01c1d9dbbd8ed106f07705436d15aaa1e1e7 **
+
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 18:52:41 +0200
+
 modemmanager-qt (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
