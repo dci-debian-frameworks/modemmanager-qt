@@ -1,3 +1,11 @@
+modemmanager-qt (5.23.0-1~1.gbp98466a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @98466a953fe505d36ee26298dcea98d350b58ed3 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 00:52:24 +0200
+
 modemmanager-qt (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
