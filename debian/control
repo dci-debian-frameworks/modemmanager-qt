@@ -27,6 +27,7 @@ Description: Qt wrapper library for ModemManager (documentation)
  Qt wrapper for ModemManager DBus API.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5modemmanagerqt6
 Architecture: any
